@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Community</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+               <div class="header__wrapper__left">
+                    <div class="header__logo">
+                        <a href="#">
+                            <img src="files/icons/logo.svg" alt="">
+                        </a>
+                    </div>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__list__item"><a href="#">Сообщество</a></li>
+                            <li class="nav__list__item"><a href="#">Аналитика</a></li>
+                            <li class="nav__list__item"><a href="#">Для организаций</a></li>
+                        </ul>
+                    </nav>
+               </div>
+               <div class="header__wrapper__right">
+                   <button class="btn btn-primary">Создать заявку</button>
+                   <a href="#" class="btn__icon lang">
+                       <img src="files/icons/lang.svg" alt="change lang">
+                   </a>
+                   <a href="#" class="btn__icon singin">
+                       <img src="files/icons/singin.svg" alt="sing in">
+                   </a>
+               </div>
+            </div>
+        </div>
+
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <div class="hero__wrapper">
+                    <h1 class="hero__title heading">Сообщество взаимопомощи между учёными со всего мира</h1>
+                    <p class="hero__description text">Удобный сервис, который подберёт для вас коллег и поможет наладить с ними взаимовыгодное сотрудничество в областях совместных исследований, соавторства, рецензирования и повышения индекса цитирования.</p>
+                    <button class="btn hero__btn">Присоединиться</button>
+                </div>
+            </div>
+        </section>
+        <section class="how">
+            <div class="container">
+                <h2 class="how__title heading">Как это работает</h2>
+                <ul class="how__list">
+                    <li class="how__item">
+                        <div class="how__item__wrapper">
+                            <img src="files/icons/how__first.svg" alt="">
+                        </div>
+                        <p class="how__item__text">Оцените привлекательность темы</p>
+                    </li>
+                    <li class="how__item">
+                        <div class="how__item__wrapper">
+                            <img src="files/icons/how__second.svg" alt="">
+                        </div>
+                        <p class="how__item__text">Выполните совместные исследования</p>
+                    </li>
+                    <li class="how__item">
+                        <div class="how__item__wrapper">
+                            <img src="files/icons/how__third.svg" alt="">
+                        </div>
+                        <p class="how__item__text">Улучшите написанную работу</p>
+                    </li>
+                    <li class="how__item">
+                        <div class="how__item__wrapper last">
+                            <img src="files/icons/how__fourth.svg" alt="">
+                        </div>
+                        <p class="how__item__text"> Продвиньте свою работу</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="community">
+            <div class="container">
+                <h2 class="community__title heading">Сообщество</h2>
+                <p class="community__subtitle">Тысячи учёных уже предлагают свою помощь</p>
+                <ul id="parent" class="community__list">
+                    <!-- <li class="community__list__item">
+                        <span class="community__tag tag__yellow">
+                        Цитировать других
+                        </span>
+                        <span class="community__tag tag__green">
+                            Neuro/Psycho
+                        </span>
+                        <h3 class="community__list__item__title">Вопросы проектирования трансатлантического межнационального продуктопровода в условиях нарастающей коронавирусной пандемии</h3>
+                        <div class="community__list__item__commentary">
+                            <p>Комментарий</p>
+                            <span id="comment">Могу ещё помочь со статистической обработкой</span>
+                        </div>
+                        <div class="community__awards">
+                            <p>Вознаграждение</p>
+                            <span class="community__award">Процитировать других</span>
+                            <span class="community__award">Принять в соавторы</span>
+                        </div>
+                        <div class="community__person">
+                            <img src="files/img/person.jpg" alt="person" class="community__person__photo">
+                            <div class="community__person__wrapper">
+                                <h5 class="community__person__name">
+                                    Артём Белоусов
+                                </h5>
+                                <p class="community__person__position">учёный (кандидат наук)</p>
+                                <p class="community__person__located">Санкт-Петербургский горный университет</p>
+                            </div>
+                            <a href="#" class="community__person__rate">
+                                <span>
+                                    <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10.5 0L12.8574 7.25532H20.4861L14.3143 11.7394L16.6717 18.9947L10.5 14.5106L4.32825 18.9947L6.68565 11.7394L0.513906 7.25532H8.1426L10.5 0Z" fill="#FFD600"/>
+                                    </svg>
+                                </span>
+                                <p class="community__person__rating">4.5</p>
+                            </a>
+                        </div>
+                        <div class="community__btn__wrapper">
+                            <button class="btn community__btn">Предложить сотрудничество</button>
+                            <button class="btn btn-primary community__btn__more">
+                                <span>
+                                    <svg width="11" height="17" viewBox="0 0 11 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L9 8.5L1.00161 16" stroke="#3A85F4" stroke-width="1.5" stroke-linecap="round"/>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                    </li> -->
+                </ul>
+                <div class="community__seemore__wrapper">
+                    <button class="btn btn-primary community__seemore">Смотреть все</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__wrapper__left">
+                    <div class="footer__confident">
+                        <h6>Authortie</h6>
+                        <p>© Все права защищены</p>
+                    </div>
+                    <nav class="footer__nav">
+                        <ul class="footer__nav__list">
+                            <li class="footer__nav__list__item">
+                                <a href="#">Политика конфиденциальности</a>
+                            </li>
+                            <li class="footer__nav__list__item">
+                                <a href="#">Аналитика</a>
+                            </li>
+                            <li class="footer__nav__list__item">
+                                <a href="#">Сообщество</a>
+                            </li>
+                            <li class="footer__nav__list__item">
+                                <a href="#">Для организаций</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__wrapper__right">
+                    <ul class="footer__links__list">
+                        <li class="footer__links__list__item">
+                            <a href="#">
+                                <svg width="13" height="24" viewBox="0 0 13 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.99701 3.985H12.188V0.169C11.81 0.117 10.51 0 8.99601 0C5.83701 0 3.67301 1.987 3.67301 5.639V9H0.187012V13.266H3.67301V24H7.94701V13.267H11.292L11.823 9.001H7.94601V6.062C7.94701 4.829 8.27901 3.985 9.99701 3.985Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer__links__list__item">
+                            <a href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.5034 0H6.49657C2.9143 0 0 2.9143 0 6.49657V17.5036C0 21.0856 2.9143 24 6.49657 24H17.5036C21.0856 24 24 21.0856 24 17.5036V6.49657C24 2.9143 21.0856 0 17.5034 0V0ZM12 18.5623C8.38145 18.5623 5.43767 15.6185 5.43767 12C5.43767 8.38145 8.38145 5.43767 12 5.43767C15.6185 5.43767 18.5623 8.38145 18.5623 12C18.5623 15.6185 15.6185 18.5623 12 18.5623ZM18.7192 6.98528C17.6499 6.98528 16.7801 6.11553 16.7801 5.04619C16.7801 3.97686 17.6499 3.10693 18.7192 3.10693C19.7885 3.10693 20.6585 3.97686 20.6585 5.04619C20.6585 6.11553 19.7885 6.98528 18.7192 6.98528Z" fill="white"/>
+                                    <path d="M11.9999 6.84467C9.15741 6.84467 6.8446 9.15728 6.8446 12C6.8446 14.8425 9.15741 17.1553 11.9999 17.1553C14.8426 17.1553 17.1553 14.8425 17.1553 12C17.1553 9.15728 14.8426 6.84467 11.9999 6.84467Z" fill="white"/>
+                                    <path d="M18.7192 4.5141C18.4259 4.5141 18.1871 4.75287 18.1871 5.0462C18.1871 5.33954 18.4259 5.57831 18.7192 5.57831C19.0128 5.57831 19.2515 5.33972 19.2515 5.0462C19.2515 4.75268 19.0128 4.5141 18.7192 4.5141Z" fill="white"/>
+                                </svg>    
+                            </a>
+                        </li>   
+                        <li class="footer__links__list__item">
+                            <a href="#">
+                                <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_867_2161)">
+                                    <path d="M9.02455 15.181L8.64409 20.765C9.18843 20.765 9.42418 20.521 9.70688 20.228L12.2589 17.683L17.547 21.724C18.5168 22.288 19.2001 21.991 19.4618 20.793L22.9328 3.82104L22.9338 3.82004C23.2414 2.32404 22.4153 1.73904 21.4704 2.10604L1.06751 10.257C-0.324949 10.821 -0.303865 11.631 0.830801 11.998L6.04701 13.691L18.1632 5.78004C18.7334 5.38604 19.2519 5.60404 18.8254 5.99804L9.02455 15.181Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_867_2161">
+                                    <rect width="23" height="24" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal">
+        <div class="container">
+            <div class="modal__info">
+                <div id="modal__close" class="modal__close">
+                    <button class="modal__close__btn">
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L6 6M11 11L6 6M6 6L11 1L1 11" stroke="black"/>
+                        </svg>    
+                    </button>
+                </div>
+                <div class="modal__tabs">
+                    <button class="modal__tab modal__tab__singin">Вход</button>
+                    <button class="modal__tab modal__tab__singup disabled">Регистрация</button>
+                </div>
+                <div class="modal__singin__wrapper show">
+                    <form action="#" method="post" class="modal__form">
+                        <input class="modal__form__input" type="email" name="email" required placeholder="E-mail" autocomplete>
+                        <input name="password" id="password" type="password" class="modal__form__input" required autocomplete placeholder="Пароль">
+                        <a href="#" class="modal__singin__forgot">Забыли пароль?</a>
+                        <button>войти</button>
+                    </form>
+                    <div class="modal__society">
+                        <h6 class="modal__society__title">Войти с помощью</h6>
+                        <div class="modal__society__wrapper">
+                            <a href="" class="modal__society__link">
+                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 12.9149C0.00150291 19.2691 4.6221 24.6794 10.8978 25.6753V16.6478H7.62083V12.9149H10.9017V10.0732C10.755 8.72671 11.2149 7.38474 12.1567 6.41126C13.0985 5.43778 14.4245 4.9337 15.7751 5.03573C16.7446 5.05138 17.7116 5.13772 18.6685 5.29406V8.47027H17.0358C16.4737 8.39665 15.9086 8.58228 15.4997 8.97488C15.0908 9.36747 14.8823 9.92454 14.933 10.4891V12.9149H18.5122L17.94 16.6491H14.933V25.6753C21.72 24.6027 26.4793 18.4042 25.763 11.5704C25.0466 4.73654 19.1054 -0.340283 12.2435 0.0178312C5.38155 0.375945 0.00109078 6.04362 0 12.9149Z" fill="#0047B3"/>
+                                </svg>        
+                            </a>
+                            <a href="" class="modal__society__link">
+                                <svg width="27" height="22" viewBox="0 0 27 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M23.6621 4.02707C24.775 3.36181 25.6076 2.31427 26.0046 1.08004C24.959 1.70048 23.8149 2.13754 22.6219 2.37232C20.9678 0.622626 18.3472 0.196831 16.2243 1.33285C14.1014 2.46888 13.0018 4.88548 13.5399 7.23232C9.2567 7.01728 5.26611 4.994 2.56119 1.66597C1.14954 4.10084 1.87092 7.21342 4.20974 8.77907C3.364 8.75188 2.53701 8.5229 1.79774 8.11121C1.79774 8.13356 1.79774 8.1559 1.79774 8.17825C1.79823 10.7146 3.58579 12.8993 6.07181 13.402C5.28733 13.6154 4.46448 13.6468 3.66601 13.4938C4.36516 15.6629 6.36421 17.1488 8.6427 17.1931C6.7556 18.6743 4.42509 19.4775 2.02615 19.4736C1.60094 19.4742 1.17607 19.4497 0.753738 19.4003C3.18981 20.9657 6.02509 21.7966 8.92077 21.7937C12.9494 21.8214 16.8209 20.2332 19.6695 17.3843C22.5181 14.5355 24.106 10.6638 24.078 6.63521C24.078 6.40432 24.0726 6.17466 24.0619 5.94625C25.1052 5.19224 26.0056 4.25816 26.7209 3.1879C25.7489 3.61874 24.7179 3.9016 23.6621 4.02707Z" fill="#2C80FF"/>
+                                </svg>    
+                            </a>
+                            <a href="" class="modal__society__link">
+                                <?xml version="1.0" encoding="utf-8"?>
+                                    <svg viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+                                    <g transform="matrix(1, 0, 0, 1, 27.009001, -39.238998)">
+                                        <path fill="#4285F4" d="M -3.264 51.509 C -3.264 50.719 -3.334 49.969 -3.454 49.239 L -14.754 49.239 L -14.754 53.749 L -8.284 53.749 C -8.574 55.229 -9.424 56.479 -10.684 57.329 L -10.684 60.329 L -6.824 60.329 C -4.564 58.239 -3.264 55.159 -3.264 51.509 Z"/>
+                                        <path fill="#34A853" d="M -14.754 63.239 C -11.514 63.239 -8.804 62.159 -6.824 60.329 L -10.684 57.329 C -11.764 58.049 -13.134 58.489 -14.754 58.489 C -17.884 58.489 -20.534 56.379 -21.484 53.529 L -25.464 53.529 L -25.464 56.619 C -23.494 60.539 -19.444 63.239 -14.754 63.239 Z"/>
+                                        <path fill="#FBBC05" d="M -21.484 53.529 C -21.734 52.809 -21.864 52.039 -21.864 51.239 C -21.864 50.439 -21.724 49.669 -21.484 48.949 L -21.484 45.859 L -25.464 45.859 C -26.284 47.479 -26.754 49.299 -26.754 51.239 C -26.754 53.179 -26.284 54.999 -25.464 56.619 L -21.484 53.529 Z"/>
+                                        <path fill="#EA4335" d="M -14.754 43.989 C -12.984 43.989 -11.404 44.599 -10.154 45.789 L -6.734 42.369 C -8.804 40.429 -11.514 39.239 -14.754 39.239 C -19.444 39.239 -23.494 41.939 -25.464 45.859 L -21.484 48.949 C -20.534 46.099 -17.884 43.989 -14.754 43.989 Z"/>
+                                    </g>
+                                    </svg>
+                            </a>
+                            <a href="" class="modal__society__link">
+                                <svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.39211 14.8029L3.53985 24H0L5.32955 14.165C2.82388 13.0909 1.15345 11.144 1.15345 7.55244C1.15345 2.51749 4.93185 0 9.42619 0H14V24H10.9376V14.8029H8.39211ZM10.9376 2.18183H9.30681C6.84094 2.18183 4.45454 3.55802 4.45454 7.55244C4.45454 11.4125 6.64209 12.6545 9.30681 12.6545H10.9376V2.18183Z" fill="#FF0000"/>
+                                </svg>    
+                            </a>
+                            <a href="" class="modal__society__link">
+                                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.67 0.210938C3.352 0.210938 3.886 0.425938 4.274 0.853938C4.662 1.28194 4.87 1.82194 4.898 2.46894C4.898 3.10794 4.68 3.64694 4.241 4.08494C3.802 4.52194 3.202 4.74094 2.443 4.74094H2.416C1.675 4.74094 1.088 4.52194 0.651 4.08494C0.219 3.64694 0 3.10794 0 2.46894C0 1.81194 0.238 1.27194 0.718 0.846938C1.198 0.422938 1.85 0.210938 2.67 0.210938ZM0.287 6.53494H4.97V19.6909H0.287V6.53494ZM21.903 12.1479V19.6909H17.221V12.6549C17.221 11.7599 17.037 11.0429 16.671 10.4969C16.307 9.95594 15.698 9.68494 14.838 9.68494C14.183 9.68494 13.657 9.85094 13.265 10.1849C12.872 10.5169 12.587 10.8839 12.415 11.2869C12.359 11.4329 12.324 11.5939 12.305 11.7729C12.287 11.9489 12.279 12.1399 12.279 12.3409V19.6919H7.568C7.588 17.4659 7.599 15.4239 7.599 13.5719V11.2329V9.10794C7.599 8.46094 7.592 7.90894 7.581 7.45094C7.575 6.99694 7.568 6.68994 7.568 6.53494H12.279V8.39794L12.253 8.45194H12.279V8.39794C12.425 8.16894 12.612 7.92994 12.84 7.67894C13.071 7.42894 13.347 7.19494 13.683 6.97894C14.016 6.76494 14.417 6.58894 14.887 6.44594C15.36 6.30494 15.898 6.23494 16.511 6.23494C17.273 6.23494 17.985 6.35094 18.649 6.58394C19.311 6.81694 19.88 7.18194 20.364 7.67994C20.845 8.17494 21.222 8.79094 21.496 9.52694C21.769 10.2609 21.903 11.1349 21.903 12.1479Z" fill="#007BC4"/>
+                                </svg>   
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal__singup__wrapper">
+                    <form action="#" method="post" class="modal__form">
+                        <input class="modal__form__input" type="email" name="email" required placeholder="E-mail" autocomplete>
+                        <input name="password" id="password" type="password" class="modal__form__input" required autocomplete placeholder="Пароль">
+                        <input name="password" id="passwordAgain" type="password" class="modal__form__input" required autocomplete placeholder="Повторите пароль">
+                        <div class="modal__form__radio__wrapper">
+                            <input type="checkbox" class="modal__form__radio" id="modal__form__radio" required>
+                            <label for="modal__form__radio">
+                                Я принимаю условия <a href="#">Пользовательского соглашения</a> и даю своё согласие на обработку персональных данных на условиях, определенных <a href="#">Политикой конфиденциальности.</a>
+                            </label>
+                        </div>
+                        <button>Регистрация</button>
+                    </form>
+                    <div class="modal__society">
+                        <h6 class="modal__society__title">Войти с помощью</h6>
+                        <div class="modal__society__wrapper">
+                            <a href="" class="modal__society__link">
+                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 12.9149C0.00150291 19.2691 4.6221 24.6794 10.8978 25.6753V16.6478H7.62083V12.9149H10.9017V10.0732C10.755 8.72671 11.2149 7.38474 12.1567 6.41126C13.0985 5.43778 14.4245 4.9337 15.7751 5.03573C16.7446 5.05138 17.7116 5.13772 18.6685 5.29406V8.47027H17.0358C16.4737 8.39665 15.9086 8.58228 15.4997 8.97488C15.0908 9.36747 14.8823 9.92454 14.933 10.4891V12.9149H18.5122L17.94 16.6491H14.933V25.6753C21.72 24.6027 26.4793 18.4042 25.763 11.5704C25.0466 4.73654 19.1054 -0.340283 12.2435 0.0178312C5.38155 0.375945 0.00109078 6.04362 0 12.9149Z" fill="#0047B3"/>
+                                </svg>        
+                            </a>
+                            <a href="" class="modal__society__link">
+                                <svg width="27" height="22" viewBox="0 0 27 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M23.6621 4.02707C24.775 3.36181 25.6076 2.31427 26.0046 1.08004C24.959 1.70048 23.8149 2.13754 22.6219 2.37232C20.9678 0.622626 18.3472 0.196831 16.2243 1.33285C14.1014 2.46888 13.0018 4.88548 13.5399 7.23232C9.2567 7.01728 5.26611 4.994 2.56119 1.66597C1.14954 4.10084 1.87092 7.21342 4.20974 8.77907C3.364 8.75188 2.53701 8.5229 1.79774 8.11121C1.79774 8.13356 1.79774 8.1559 1.79774 8.17825C1.79823 10.7146 3.58579 12.8993 6.07181 13.402C5.28733 13.6154 4.46448 13.6468 3.66601 13.4938C4.36516 15.6629 6.36421 17.1488 8.6427 17.1931C6.7556 18.6743 4.42509 19.4775 2.02615 19.4736C1.60094 19.4742 1.17607 19.4497 0.753738 19.4003C3.18981 20.9657 6.02509 21.7966 8.92077 21.7937C12.9494 21.8214 16.8209 20.2332 19.6695 17.3843C22.5181 14.5355 24.106 10.6638 24.078 6.63521C24.078 6.40432 24.0726 6.17466 24.0619 5.94625C25.1052 5.19224 26.0056 4.25816 26.7209 3.1879C25.7489 3.61874 24.7179 3.9016 23.6621 4.02707Z" fill="#2C80FF"/>
+                                </svg>    
+                            </a>
+                            <a href="" class="modal__society__link">
+                                <?xml version="1.0" encoding="utf-8"?>
+                                    <svg viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+                                    <g transform="matrix(1, 0, 0, 1, 27.009001, -39.238998)">
+                                        <path fill="#4285F4" d="M -3.264 51.509 C -3.264 50.719 -3.334 49.969 -3.454 49.239 L -14.754 49.239 L -14.754 53.749 L -8.284 53.749 C -8.574 55.229 -9.424 56.479 -10.684 57.329 L -10.684 60.329 L -6.824 60.329 C -4.564 58.239 -3.264 55.159 -3.264 51.509 Z"/>
+                                        <path fill="#34A853" d="M -14.754 63.239 C -11.514 63.239 -8.804 62.159 -6.824 60.329 L -10.684 57.329 C -11.764 58.049 -13.134 58.489 -14.754 58.489 C -17.884 58.489 -20.534 56.379 -21.484 53.529 L -25.464 53.529 L -25.464 56.619 C -23.494 60.539 -19.444 63.239 -14.754 63.239 Z"/>
+                                        <path fill="#FBBC05" d="M -21.484 53.529 C -21.734 52.809 -21.864 52.039 -21.864 51.239 C -21.864 50.439 -21.724 49.669 -21.484 48.949 L -21.484 45.859 L -25.464 45.859 C -26.284 47.479 -26.754 49.299 -26.754 51.239 C -26.754 53.179 -26.284 54.999 -25.464 56.619 L -21.484 53.529 Z"/>
+                                        <path fill="#EA4335" d="M -14.754 43.989 C -12.984 43.989 -11.404 44.599 -10.154 45.789 L -6.734 42.369 C -8.804 40.429 -11.514 39.239 -14.754 39.239 C -19.444 39.239 -23.494 41.939 -25.464 45.859 L -21.484 48.949 C -20.534 46.099 -17.884 43.989 -14.754 43.989 Z"/>
+                                    </g>
+                                    </svg>
+                            </a>
+                            <a href="" class="modal__society__link">
+                                <svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.39211 14.8029L3.53985 24H0L5.32955 14.165C2.82388 13.0909 1.15345 11.144 1.15345 7.55244C1.15345 2.51749 4.93185 0 9.42619 0H14V24H10.9376V14.8029H8.39211ZM10.9376 2.18183H9.30681C6.84094 2.18183 4.45454 3.55802 4.45454 7.55244C4.45454 11.4125 6.64209 12.6545 9.30681 12.6545H10.9376V2.18183Z" fill="#FF0000"/>
+                                </svg>    
+                            </a>
+                            <a href="" class="modal__society__link">
+                                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.67 0.210938C3.352 0.210938 3.886 0.425938 4.274 0.853938C4.662 1.28194 4.87 1.82194 4.898 2.46894C4.898 3.10794 4.68 3.64694 4.241 4.08494C3.802 4.52194 3.202 4.74094 2.443 4.74094H2.416C1.675 4.74094 1.088 4.52194 0.651 4.08494C0.219 3.64694 0 3.10794 0 2.46894C0 1.81194 0.238 1.27194 0.718 0.846938C1.198 0.422938 1.85 0.210938 2.67 0.210938ZM0.287 6.53494H4.97V19.6909H0.287V6.53494ZM21.903 12.1479V19.6909H17.221V12.6549C17.221 11.7599 17.037 11.0429 16.671 10.4969C16.307 9.95594 15.698 9.68494 14.838 9.68494C14.183 9.68494 13.657 9.85094 13.265 10.1849C12.872 10.5169 12.587 10.8839 12.415 11.2869C12.359 11.4329 12.324 11.5939 12.305 11.7729C12.287 11.9489 12.279 12.1399 12.279 12.3409V19.6919H7.568C7.588 17.4659 7.599 15.4239 7.599 13.5719V11.2329V9.10794C7.599 8.46094 7.592 7.90894 7.581 7.45094C7.575 6.99694 7.568 6.68994 7.568 6.53494H12.279V8.39794L12.253 8.45194H12.279V8.39794C12.425 8.16894 12.612 7.92994 12.84 7.67894C13.071 7.42894 13.347 7.19494 13.683 6.97894C14.016 6.76494 14.417 6.58894 14.887 6.44594C15.36 6.30494 15.898 6.23494 16.511 6.23494C17.273 6.23494 17.985 6.35094 18.649 6.58394C19.311 6.81694 19.88 7.18194 20.364 7.67994C20.845 8.17494 21.222 8.79094 21.496 9.52694C21.769 10.2609 21.903 11.1349 21.903 12.1479Z" fill="#007BC4"/>
+                                </svg>   
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
